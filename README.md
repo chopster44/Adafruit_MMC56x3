@@ -3,6 +3,8 @@
 ## Modifications ##
 Replaced `sensor_t` with `adafruit_sensor_t`, reasons listed in README [here](https://github.com/chopster44/Adafruit_Sensor). Also modified the README a bit.
 
+***
+
 This library is for the Adafruit MMC5603 or MMC5613 Breakouts
 
 Tested and works great with Adafruit's MMC5603 Breakout Boards
@@ -36,6 +38,7 @@ Light sensors will always report units in lux, gyroscopes will always report uni
 ## About this Driver ##
 
 Written by ladyada for Adafruit Industries.
+Modified by Chopster44.
 BSD license, check license.txt for more information
 All text above must be included in any redistribution
 
