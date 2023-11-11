@@ -261,13 +261,13 @@ uint16_t Adafruit_MMC5603::getDataRate(void) { return _ctrl2_cache; }
 
 /**************************************************************************/
 /*!
-    @brief  Gets the sensor_t data
-    @param  sensor The unified sensor_t object we will populate
+    @brief  Gets the adafruit_sensor_t data
+    @param  sensor The unified adafruit_sensor_t object we will populate
 */
 /**************************************************************************/
-void Adafruit_MMC5603::getSensor(sensor_t *sensor) {
-  /* Clear the sensor_t object */
-  memset(sensor, 0, sizeof(sensor_t));
+void Adafruit_MMC5603::getSensor(adafruit_sensor_t *sensor) {
+  /* Clear the adafruit_sensor_t object */
+  memset(sensor, 0, sizeof(adafruit_sensor_t));
 
   /* Insert the sensor name in the fixed length char array */
   strncpy(sensor->name, "MMC5603", sizeof(sensor->name) - 1);

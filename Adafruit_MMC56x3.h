@@ -61,7 +61,7 @@ public:
   bool begin(uint8_t i2c_addr = MMC56X3_DEFAULT_ADDRESS, TwoWire *wire = &Wire);
 
   bool getEvent(sensors_event_t *);
-  void getSensor(sensor_t *);
+  void getSensor(adafruit_sensor_t *);
 
   void reset(void);
   void magnetSetReset(void);
