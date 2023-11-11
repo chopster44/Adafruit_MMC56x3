@@ -1,9 +1,8 @@
-Adafruit_MMC56x3 [![Build Status](https://github.com/adafruit/Adafruit_MMC56x3/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit_MMC56x3/actions)[![Documentation](https://github.com/adafruit/ci-arduino/blob/master/assets/doxygen_badge.svg)](http://adafruit.github.io/Adafruit_MMC56x3/html/index.html)
-================
-
-<a href="https://www.adafruit.com/product/1120"><img src="assets/board.jpg?raw=true" width="500px"></a>
-
 # Adafruit MMC56x3 Magnetometer Library
+
+## Modifications ##
+Replaced `sensor_t` with `adafruit_sensor_t`, reasons listed in README [here](https://github.com/chopster44/Adafruit_Sensor). Also modified the README a bit.
+
 This library is for the Adafruit MMC5603 or MMC5613 Breakouts
 
 Tested and works great with Adafruit's MMC5603 Breakout Boards
